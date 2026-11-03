@@ -27,7 +27,7 @@ img{
   display:block;
 }
 
-/* header - sticky permanent when scroll */
+/* header -  */
 header{
   background:#fff;
   position:sticky;
@@ -356,7 +356,7 @@ header{
   object-fit:cover;
 }
 
-/* contact - FIXED NO OVERLAP */
+/* contact -  */
 .contact-cards{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
