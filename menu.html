@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu - CRAVE & SIP</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <a href="index.html" class="logo"><em><I>CODING KITCHEN</I></em></a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-btns">
+      <button class="btn green cart-btn">Cart (<span class="count">0</span>)</button>
+      <button class="hamburger">=</button>
+    </div>
+  </div>
+  <div class="mobile">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<div class="cart-box">
+  <div class="cart-top">
+    <h3>Your Order</h3>
+    <button class="close-cart">✕</button>
+  </div>
+  <div class="cart-items"></div>
+  <h4 class="cart-total">Total: ₦0</h4>
+  <button class="btn green full" id="sendWa">Send Order on WhatsApp - 09131762761</button>
+  <p class="small">Fast reply from +234 913 176 2761</p>
+</div>
+
+<main class="container sec">
+  <h1>Our Menu</h1>
+  <p>Freshly made in Ile-Ife. Click Add to order. Delivery 30-45 mins inside Ife.</p>
+
+  <div class="menu-cat">
+    <span class="active">All</span>
+    <span>Burgers</span>
+    <span>Chicken</span>
+    <span>Wraps</span>
+    <span>Drinks</span>
+    <span>Student Deals</span>
+  </div>
+
+  <!-- burgers -->
+  <h2 style="margin-top:40px;">Burgers & Wraps</h2>
+  <div class="grid3">
+    <div class="food">
+      <img src="assets/classic1.jpg">
+       <img src="assets/classic2.jpg">
+      <div class="pad">
+        <h3>Classic Smash Burger</h3>
+        <p class="small">Beef patty, cheddar, pickles, lettuce, special sauce</p>
+        <b>₦3,800</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+    <div class="food">
+      <img src="assets/double1.jpg">
+      <img src="assets/double2.jpg">
+      <div class="pad">
+        <h3>Double Cheese Burger</h3>
+        <p class="small">Double beef, double cheese, extra juicy</p>
+        <b>₦5,200</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+    
+    <div class="food">
+      <img src="assets/wrap1.jpg">
+      <img src="assets/wrap2.jpg">
+      <div class="pad">
+        <h3>Chicken Wrap</h3>
+        <p class="small">Grilled chicken, lettuce, mayo, tortilla wrap</p>
+        <b>₦3,200</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- chicken -->
+  <h2 style="margin-top:50px;">Chicken & Sides</h2>
+  <div class="grid3">
+    <div class="food">
+      <img src="assets/chicken1.jpg">
+      <img src="assets/chicken2.jpg">
+      <div class="pad">
+        <h3>Crispy Chicken & Fries</h3>
+        <p class="small">2 pcs crispy chicken + fries + ketchup</p>
+        <b>₦4,500</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+    <div class="food">
+      <img src="assets/loaded1.jpg">
+      <img src="assets/loaded2.jpg">
+      <div class="pad">
+        <h3>Loaded Fries</h3>
+        <p class="small">Fries, cheese sauce, chicken bits, pepper</p>
+        <b>₦2,800</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+    <div class="food">
+      <img src="assets/tender1.jpg">
+      <img src="assets/tender2.jpg">
+      <div class="pad">
+        <h3>Chicken Tenders (5pcs)</h3>
+        <p class="small">Crispy tenders with dip</p>
+        <b>₦3,500</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- drinks & student -->
+  <h2 style="margin-top:50px;">Drinks & Student Box</h2>
+  <div class="grid3">
+    <div class="food">
+      <img src="assets/zobo1.jpg">
+      <img src="assets/zobo2.jpg">
+      <div class="pad">
+        <h3>Cold Zobo</h3>
+        <p class="small">Fresh zobo, cold, sweet</p>
+        <b>₦800</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+    <div class="food">
+      <img src="assets/coke1.jpg">
+      <img src="assets/coke2.jpg">
+      <div class="pad">
+        <h3>Soft Drink</h3>
+        <p class="small">Coke, Fanta, Sprite - cold</p>
+        <b>₦600</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+    <div class="food">
+      <img src="assets/box1.jpg">
+      <img src="assets/box2.jpg">
+      <div class="pad">
+        <h3>Student Box Special</h3>
+        <p class="small">Burger + fries + chicken + drink - BEST DEAL</p>
+        <b>₦5,500</b>
+        <button class="btn green small add">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="why-card" style="margin-top:50px; text-align:center;">
+    <h3>Need Help Ordering?</h3>
+    <p>Chat us on WhatsApp: +234 913 176 2761 or email: aoladimeji119@gmail.com</p>
+    <a href="https://wa.me/2349131762761" class="btn green" style="display:inline-block; margin-top:12px;">Order on WhatsApp</a>
+  </div>
+</main>
+
+<footer>
+  <div class="container foot">
+    <div><h4>CRAVE & SIP</h4><p>Ile-Ife<br>aoladimeji119@gmail.com</p></div>
+    <div><h4>Contact</h4><p>+234 913 176 2761<br>9am-10pm</p></div>
+    <div><h4>Delivery</h4><p>OAU, Lagere, Mayfair<br>30-45 mins</p></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
