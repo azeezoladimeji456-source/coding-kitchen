@@ -30,7 +30,7 @@ img{
 /* header - sticky permanent when scroll */
 header{
   background:#fff;
-  position:fixed;
+  position:sticky;
   width: 100%;
   top:0;
   z-index:99;
