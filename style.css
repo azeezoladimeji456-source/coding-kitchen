@@ -610,3 +610,15 @@ footer{
     flex-direction:column;
   }
 }
+/* Fix cart for phone */
+@media (max-width: 768px) {
+  .cart-modal, #cartModal {
+    width: 90% !important;
+    max-width: 350px !important;
+    height: 80vh !important;
+    top: 10% !important;
+    right: 5% !important;
+    left: auto !important;
+    border-radius: 15px !important;
+  }
+}
